@@ -221,7 +221,9 @@
                 </div>
               </a>
             </noscript>
-           
+            {%- if section.blocks.size == 1 -%}
+             
+            {%- else -%}
               <modal-opener class="no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
                 <div class="deferred-media{% if block.settings.cover_image == blank %} deferred-media--placeholder{% endif %}"
                   {% if block.settings.cover_image != blank and focus_card_left and forloop.first %}
@@ -270,7 +272,7 @@
                   </deferred-media>
                 </div>
               </modal-dialog>
-            
+            {%- endif -%}
           </div>
         {%- endcase -%}
     {%- endfor -%}
