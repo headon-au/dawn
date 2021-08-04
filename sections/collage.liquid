@@ -178,7 +178,14 @@
                     {%- endif -%}
                   </div>
                 </a>
-              
+              {%- else -%}
+                <div class="collage-content card card-colored color-{{ block.settings.color_scheme }}">
+                  <div class="collage-card__no-image card__text-spacing card__text-hover">
+                    <h3 class="h2">
+                      {{ 'onboarding.collection_title' | t }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>
+                    </h3>
+                  </div>
+                </div>
               {%- endif -%}
           </div>
 
