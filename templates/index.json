@@ -181,7 +181,7 @@
         "16295208513c36108c-2"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "",
         "image_ratio": "portrait",
         "color_scheme": "background-1",
         "swipe_on_mobile": true,
@@ -195,13 +195,13 @@
         "1629520998c3c1a73a-0": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails"
+            "heading": "Subscribe to our newsletter"
           }
         },
         "1629520998c3c1a73a-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "text": "<p>Get the latest news & updates from nocturne.<br\/><br\/><\/p>"
           }
         },
         "1629520998c3c1a73a-2": {
