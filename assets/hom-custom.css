@@ -370,6 +370,7 @@ h1.product__title{
       border: 1px solid var(--color-foreground-20);
         background-color: var(--color-background);
           left: 0;
+          background: #f7f7f7;
           }
 
     .list-menu--disclosure {}
