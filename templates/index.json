@@ -81,76 +81,6 @@
         "heading",
         "text",
         "button"
-<<<<<<< HEAD
-      ],
-      "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
-    "1628044965a804be4e": {
-      "type": "collage",
-      "blocks": {
-        "1628044965a804be4e-0": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video for customers using screen readers",
-            "image_padding": false
-          }
-        },
-        "1628044965a804be4e-1": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "secondary_background": false,
-            "second_image": false,
-            "image_padding": false
-          }
-        },
-        "1628044965a804be4e-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "1628044965a804be4e-0",
-        "1628044965a804be4e-1",
-        "1628044965a804be4e-2"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-    },
-    "1628045011d4209468": {
-      "type": "collage",
-      "blocks": {
-        "1628045011d4209468-0": {
-          "type": "video",
-          "settings": {
-            "cover_image": "shopify:\/\/shop_images\/Homepage-banner-RETINA-Cropped_2555e756-908e-40ea-9f10-1409888532b9.jpg",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video for customers using screen readers",
-            "image_padding": false
-          }
-        }
-      },
-      "block_order": [
-        "1628045011d4209468-0"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-=======
       ]
     },
     "featured_products": {
@@ -201,21 +131,14 @@
         "column2",
         "column3"
       ]
->>>>>>> 7a2f34fb8e2659c13c4e54068f77ecade1e884ff
     }
   },
   "order": [
     "image_banner",
     "rich_text",
     "featured_products",
-<<<<<<< HEAD
-    "image_text",
-    "1628044965a804be4e",
-    "1628045011d4209468"
-=======
     "collage",
     "video",
     "multi_column"
->>>>>>> 7a2f34fb8e2659c13c4e54068f77ecade1e884ff
   ]
 }

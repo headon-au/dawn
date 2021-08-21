@@ -1,7 +1,4 @@
 {
-<<<<<<< HEAD
-  "current": {
-=======
   "current": "Default",
   "presets": {
     "Default": {
@@ -62,6 +59,5 @@
         }
       }
     }
->>>>>>> 7a2f34fb8e2659c13c4e54068f77ecade1e884ff
   }
 }
