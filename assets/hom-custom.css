@@ -359,9 +359,9 @@ h1.product__title{
       right: 0;
     }
 
-    /* details-disclosure>details {
+    details-disclosure>details {
       position: static;
-    } */
+    }
 
     .open-mega-menu {
       position: absolute;
