@@ -21,7 +21,9 @@
       "block_order": [
         "heading",
         "button"
-      ]
+      ],
+      "settings": {
+      }
     },
     "rich_text": {
       "type": "rich-text",
@@ -50,7 +52,9 @@
         "heading",
         "text",
         "button"
-      ]
+      ],
+      "settings": {
+      }
     },
     "featured_products": {
       "type": "featured-collection",
@@ -64,42 +68,60 @@
       "type": "collage",
       "blocks": {
         "video": {
-          "type": "video"
+          "type": "video",
+          "settings": {
+          }
         },
         "product": {
-            "type": "product"
+          "type": "product",
+          "settings": {
+          }
         },
         "collection": {
-          "type": "collection"
+          "type": "collection",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "video",
         "product",
         "collection"
-      ]
+      ],
+      "settings": {
+      }
     },
     "video": {
-      "type": "video"
+      "type": "video",
+      "settings": {
+      }
     },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
         "column1": {
-          "type": "column"
+          "type": "column",
+          "settings": {
+          }
         },
         "column2": {
-          "type": "column"
+          "type": "column",
+          "settings": {
+          }
         },
         "column3": {
-          "type": "column"
+          "type": "column",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "column1",
         "column2",
         "column3"
-      ]
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
