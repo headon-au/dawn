@@ -482,3 +482,18 @@ h1.product__title{
     .facets__item {
       text-transform: uppercase;
   }
+
+  /* Collection List */
+
+  .card--media .card__text-spacing {
+    padding: 2rem;
+    margin-top: -7rem;
+}
+
+.card-colored.color-background-1 {
+  background-color: rgba(var(--color-foreground),.0);
+}
+
+.card__text h3 {
+  color: white;
+}
