@@ -105,7 +105,8 @@
           "0c98d3a4-50d3-4bbb-90c3-6aff20f18f74"
         ],
         "settings": {
-          "logo_width": 80,
+          "logo": "shopify:\/\/shop_images\/nocturne-logo-new.png",
+          "logo_width": 180,
           "logo_position": "middle-left",
           "menu": "mega-menu",
           "show_line_separator": true,
