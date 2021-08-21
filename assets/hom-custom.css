@@ -191,11 +191,13 @@ h5 {
     font-size: 24px; 
 }
 
-
 p {
     font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
   }
-
+  body {
+    font-family: 'Work Sans', sans-serif;
+  }
 
   .h0 {
     font-size: 4rem;
@@ -215,25 +217,29 @@ p {
   @media only screen and (min-width: 750px) {
     h1,
     .h1 {
-      font-size: 4rem;
+      /* font-size: 4rem; */
+      font-size: 2rem;
     }
   }
   
   h2,
   .h2 {
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: 1rem;
   }
   
   @media only screen and (min-width: 750px) {
     h2,
     .h2 {
-      font-size: 2.4rem;
+      /* font-size: 2.4rem; */
+      font-size: 1.4rem;
     }
   }
   
   h3,
   .h3 {
-    font-size: 1.7rem;
+    /* font-size: 1.7rem; */
+    font-size: 1.2rem;
   }
   
   @media only screen and (min-width: 750px) {
@@ -286,7 +292,7 @@ nav.header__inline-menu {
 .link, .customer a{
     font-family: 'Work Sans', sans-serif;
     color: black;
-    font-size: 16px;
+    font-size: 14px;
     }
 
 /********* Product Page *********/
@@ -324,6 +330,17 @@ h1.product__title{
     font-family: 'Silk Serif'!important;
     font-weight: normal!important;
     text-transform: uppercase;
+}
+
+.product__description.rte {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 300;
+}
+
+.form__label {
+  text-transform: uppercase;
 }
 
 /******** Mega Menu ********/
@@ -441,3 +458,27 @@ h1.product__title{
       padding-left: 40px;
       padding-right: 40px;
     }
+
+    /******** Collection Page ********/
+    /* Facets */
+
+    .facets__display {
+      border: 1px solid black!important;
+    }
+    .facets__header {
+    border-bottom: 1px solid black!important;
+    text-transform: uppercase!important;
+    }
+
+    collection-filters-form.facets.small-hide {
+      border-bottom: 1px solid black!important;
+    }
+
+    summary.facets__summary.caption-large.focus-offset {
+    text-transform: uppercase;
+    font-size: 14px;
+    }
+
+    .facets__item {
+      text-transform: uppercase;
+  }
