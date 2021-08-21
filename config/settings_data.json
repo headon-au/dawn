@@ -15,17 +15,17 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "announcement-bar-0": {
+          "6b86d7b8-b3c6-4e0f-b82d-7ee89af448fd": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "background-1",
+              "text": "FREE SHIPPING AUSTRALIA WIDE ORDERS $150",
+              "color_scheme": "accent-1",
               "link": ""
             }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "6b86d7b8-b3c6-4e0f-b82d-7ee89af448fd"
         ],
         "settings": {
         }
@@ -47,27 +47,35 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Entreprise",
               "menu": "footer"
+            }
+          },
+          "f9290383-f3dd-4f7f-a56c-4a94838fa791": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Policies",
+              "menu": "footer-policies"
             }
           },
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "",
+              "subtext": "<p>Turkish fashion brand which designs, manufactures, distributes and retails ready to wear.<\/p>"
             }
           }
         },
         "block_order": [
           "footer-0",
+          "f9290383-f3dd-4f7f-a56c-4a94838fa791",
           "footer-1"
         ],
         "settings": {
           "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
-          "show_social": false,
+          "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true
