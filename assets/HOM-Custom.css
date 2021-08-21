@@ -325,3 +325,119 @@ h1.product__title{
     font-weight: normal!important;
     text-transform: uppercase;
 }
+
+/******** Mega Menu ********/
+
+    .sub-menu-area .sub-menu-list-box .sub-menu-item-box ul li a {
+      color: #000;
+      display: block;
+      text-decoration: none;
+      font-family: Campton Light;
+      font-size: 16px;
+      text-align: left;
+      line-height: 29px;
+    }
+
+    .list-menu--right {
+      right: 0;
+    }
+
+    /* details-disclosure>details {
+      position: static;
+    } */
+
+    .open-mega-menu {
+      position: absolute;
+      min-width: 100%;
+      width: 20rem;
+      border: 1px solid var(--color-foreground-20);
+        background-color: var(--color-background);
+          left: 0;
+          }
+
+    .list-menu--disclosure {}
+
+    .list-menu--disclosure:focus {
+      outline: none;
+    }
+
+    .list-menu__item--active {
+      text-decoration: underline;
+      text-underline-offset: 0.3rem;
+    }
+
+    .list-menu--disclosure.localization-selector {
+      max-height: 18rem;
+      overflow: auto;
+      width: 10rem;
+      padding: 0.5rem;
+    }
+
+    .sub-menu-area {
+      display: flex;
+    }
+
+    .sub-menu-area .sub-menu-list-box {
+      width: 70%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .sub-menu-area .sub-menu-list-box-other {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .sub-menu-area .sub-menu-list-box .sub-menu-item-box {
+      width: 23%;
+      margin-right: 2%;
+      text-align: left;
+    }
+
+    .sub-menu-area .sub-menu-list-box-other .sub-menu-item-box {
+      text-align: center;
+      margin: 0 2%;
+      display: flex;
+      align-items: center;
+    }
+
+    .sub-menu-area .sub-menu-list-box .sub-menu-item-box h4 {
+      font-weight: 300;
+      font-size: 20px;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+
+    .sub-menu-area .sub-menu-list-box .sub-menu-item-box ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .sub-menu-area .sub-menu-list-box .sub-menu-item-box ul li {
+      margin: 5px 0;
+    }
+
+    .sub-menu-area .sub-menu-list-box .sub-menu-item-box ul li a {
+      color: #000;
+      display: block;
+      text-decoration: none;
+    }
+
+    .sub-menu-area .sub-menu-image {
+      width: 30%;
+    }
+
+    .sub-menu-area .sub-menu-image img {
+      width: 100%;
+    }
+
+    .menu-width-box {
+      padding: 40px;
+    }
+
+    .header {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
