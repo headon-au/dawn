@@ -14,16 +14,21 @@
           "settings": {
             "button_label_1": "Shop all",
             "button_link_1": "shopify:\/\/collections\/all",
+<<<<<<< HEAD
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
+=======
+            "button_label_2": ""
+>>>>>>> 7a2f34fb8e2659c13c4e54068f77ecade1e884ff
           }
         }
       },
       "block_order": [
         "heading",
         "button"
+<<<<<<< HEAD
       ],
       "settings": {
         "desktop_text_box_position": "flex-end",
@@ -45,9 +50,12 @@
         "add_image_padding": false,
         "show_vendor": false
       }
+=======
+      ]
+>>>>>>> 7a2f34fb8e2659c13c4e54068f77ecade1e884ff
     },
-    "image_text": {
-      "type": "image-with-text",
+    "rich_text": {
+      "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
@@ -73,6 +81,7 @@
         "heading",
         "text",
         "button"
+<<<<<<< HEAD
       ],
       "settings": {
         "height": "adapt",
@@ -141,13 +150,72 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+=======
+      ]
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "collection": "all",
+        "image_ratio": "square"
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "video": {
+          "type": "video"
+        },
+        "product": {
+            "type": "product"
+        },
+        "collection": {
+          "type": "collection"
+        }
+      },
+      "block_order": [
+        "video",
+        "product",
+        "collection"
+      ]
+    },
+    "video": {
+      "type": "video"
+    },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column"
+        },
+        "column2": {
+          "type": "column"
+        },
+        "column3": {
+          "type": "column"
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ]
+>>>>>>> 7a2f34fb8e2659c13c4e54068f77ecade1e884ff
     }
   },
   "order": [
     "image_banner",
+    "rich_text",
     "featured_products",
+<<<<<<< HEAD
     "image_text",
     "1628044965a804be4e",
     "1628045011d4209468"
+=======
+    "collage",
+    "video",
+    "multi_column"
+>>>>>>> 7a2f34fb8e2659c13c4e54068f77ecade1e884ff
   ]
 }
