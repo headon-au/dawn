@@ -80,10 +80,10 @@
         "1629520306b1ef3d4a-1"
       ],
       "settings": {
-        "title": "Collections",
-        "image_ratio": "square",
+        "title": "",
+        "image_ratio": "portrait",
         "color_scheme": "background-1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "image_padding": false,
         "show_view_all": false
       }
