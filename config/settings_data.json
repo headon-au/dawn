@@ -88,8 +88,9 @@
             "type": "meganav_women",
             "settings": {
               "meganav_trigger": "Womens",
+              "image_1": "shopify:\/\/shop_images\/Banner-5.jpg",
               "link_1": "",
-              "position_1": "first"
+              "position_1": "last"
             }
           },
           "0c98d3a4-50d3-4bbb-90c3-6aff20f18f74": {
