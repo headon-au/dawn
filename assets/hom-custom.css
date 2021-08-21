@@ -497,3 +497,23 @@ h1.product__title{
 .card__text h3 {
   color: white;
 }
+
+.banner__heading>*, .banner__text>* {
+  color: white;
+}
+
+.banner__box.color-background-1 {
+  background: none;
+}
+
+@media screen and (min-width: 750px){
+
+.banner__box {
+  width: 54.8rem;
+  left: 26%;
+  top: 40%;
+  text-align: right;
+  color: white !important;
+  padding: 4rem;
+}
+}
