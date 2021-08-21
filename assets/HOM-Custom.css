@@ -170,12 +170,104 @@
 
 /********* Global *********/
 /* Fonts */
-.h1 {
+
+.h0,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Silk Serif';
     font-weight: normal;
     text-transform: uppercase;
-    font-size: 29px; 
 }
+
+.h1 {
+    font-size: 24px; 
+}
+
+
+p {
+    font-family: 'Work Sans', sans-serif;
+  }
+
+
+  .h0 {
+    font-size: 4rem;
+  }
+  
+  @media only screen and (min-width: 750px) {
+    .h0 {
+      font-size: 5.2rem;
+    }
+  }
+  
+  h1,
+  .h1 {
+    font-size: 3rem;
+  }
+  
+  @media only screen and (min-width: 750px) {
+    h1,
+    .h1 {
+      font-size: 4rem;
+    }
+  }
+  
+  h2,
+  .h2 {
+    font-size: 2rem;
+  }
+  
+  @media only screen and (min-width: 750px) {
+    h2,
+    .h2 {
+      font-size: 2.4rem;
+    }
+  }
+  
+  h3,
+  .h3 {
+    font-size: 1.7rem;
+  }
+  
+  @media only screen and (min-width: 750px) {
+    h3,
+    .h3 {
+      font-size: 1.8rem;
+    }
+  }
+  
+  h4,
+  .h4 {
+    font-family: var(--font-heading-family);
+    font-style: var(--font-heading-style);
+    font-size: 1.5rem;
+  }
+  
+  h5,
+  .h5 {
+    font-size: 1.2rem;
+  }
+  
+  @media only screen and (min-width: 750px) {
+    h5,
+    .h5 {
+      font-size: 1.3rem;
+    }
+  }
+  
+  h6,
+  .h6 {
+    color: rgba(var(--color-foreground), 0.75);
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+  }
 
 
 /********* Header *********/
@@ -198,11 +290,38 @@ nav.header__inline-menu {
     }
 
 /********* Product Page *********/
+
+h1.product__title{
+    font-size: 28px;
+    margin-top: 20px!important;
+}
+
 @media screen and (min-width: 990px){
 .product:not(.product--no-media):not(.featured-product) .product__info-wrapper {
     padding-left: 4rem;
-    max-width: 25%;
-    width: calc(25% - 1rem / 2);
+    max-width: 25%!important;
+    width: calc(25% - 1rem / 2)!important;
+}
+
+.product:not(.product--no-media):not(.featured-product) .product__media-wrapper {
+    max-width: 75%!important;
+    width: calc(75% - 1rem / 2)!important;
 }
 }
 
+.product-form__input input[type='radio'] + label{
+    padding: .5rem .75rem!important;
+    border-radius: 0!important;
+}
+
+.product-form__submit {
+    font-family: 'Silk Serif';
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.shopify-payment-button__button {
+    font-family: 'Silk Serif'!important;
+    font-weight: normal!important;
+    text-transform: uppercase;
+}
