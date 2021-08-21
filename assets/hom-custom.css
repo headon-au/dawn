@@ -512,7 +512,7 @@ h1.product__title{
   width: 54.8rem;
   left: 26%;
   top: 40%;
-  text-align: right;
+  text-align: right!important;
   color: white !important;
   padding: 4rem;
 }
