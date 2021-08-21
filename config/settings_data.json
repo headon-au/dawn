@@ -80,6 +80,38 @@
           "enable_language_selector": true,
           "payment_enable": true
         }
+      },
+      "header-custom": {
+        "type": "header-custom",
+        "blocks": {
+          "41ad6d93-611d-4bd6-8f03-6ce0ebc7bb77": {
+            "type": "meganav_women",
+            "settings": {
+              "meganav_trigger": "Womens",
+              "link_1": "",
+              "position_1": "first"
+            }
+          },
+          "0c98d3a4-50d3-4bbb-90c3-6aff20f18f74": {
+            "type": "meganav_brand",
+            "settings": {
+              "meganav_trigger": "Brands"
+            }
+          }
+        },
+        "block_order": [
+          "41ad6d93-611d-4bd6-8f03-6ce0ebc7bb77",
+          "0c98d3a4-50d3-4bbb-90c3-6aff20f18f74"
+        ],
+        "settings": {
+          "logo_width": 80,
+          "logo_position": "middle-left",
+          "menu": "mega-menu",
+          "show_line_separator": true,
+          "overlay": true,
+          "center": true,
+          "enable_sticky_header": true
+        }
       }
     },
     "content_for_index": [
