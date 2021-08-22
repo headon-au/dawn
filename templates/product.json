@@ -49,8 +49,9 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Description",
-            "content": "<p>1<\/p>",
+            "content": "",
             "tab_description": true,
+            "tab_open": true,
             "page": "",
             "icon": "price_tag"
           }
@@ -61,6 +62,7 @@
             "heading": "Fabric & Care",
             "content": "",
             "tab_description": false,
+            "tab_open": false,
             "page": "",
             "icon": "washing"
           }
@@ -71,6 +73,7 @@
             "heading": "Shipping & Return",
             "content": "",
             "tab_description": false,
+            "tab_open": false,
             "page": "",
             "icon": "return"
           }
@@ -81,6 +84,7 @@
             "heading": "Product Features & Fit",
             "content": "",
             "tab_description": false,
+            "tab_open": false,
             "page": "",
             "icon": "ruler"
           }
