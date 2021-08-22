@@ -114,6 +114,9 @@
                 <div class="accordion__content rte">
                   {{ block.settings.content }}
                   {{ block.settings.page.content }}
+                  {% if block.settings.tab_description == 'true' %}
+                  {{ product.description }}
+                  {% endif %}
                 </div>
               </details>
             </div>
@@ -610,6 +613,12 @@
           "type": "richtext",
           "id": "content",
           "label": "t:sections.main-product.blocks.collapsible_tab.settings.content.label"
+        },    
+        {
+          "type": "checkbox",
+          "id": "tab_description",
+          "default": false,
+          "label": "tab description"
         },
         {
           "type": "page",

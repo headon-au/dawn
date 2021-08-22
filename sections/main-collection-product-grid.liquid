@@ -155,6 +155,11 @@
                 <button type="submit" class="facets__button-no-js button button--tertiary">{{ 'sections.collection_template.filter_button' | t }}</button>
               </noscript>
             </div>
+            <div>
+              <a href="#" onclick="clickTocggle()" class="toggle">
+              PRODUCT
+              </a>
+            </div>
 
             <div class="active-facets active-facets-desktop">
               {%- for filter in collection.filters -%}
@@ -181,6 +186,7 @@
                   {%- endif -%}
                 {% endif %}
               {%- endfor -%}
+              
               <facet-remove class="active-facets__button-wrapper">
                 <a href="{{ collection.url }}?sort_by={{ sort_by }}" class="active-facets__button-remove underlined-link">
                   <span>{{ 'sections.collection_template.clear_all' | t }}</span>
