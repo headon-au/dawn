@@ -45,11 +45,22 @@
             "show_dynamic_checkout": true
           }
         },
+        "5f29e879-a4f5-49a2-922d-bcc89d552406": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Description",
+            "content": "",
+            "tab_description": true,
+            "page": "",
+            "icon": "price_tag"
+          }
+        },
         "2b4645eb-3dbc-4efd-82dc-278d441c2861": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Fabric & Care",
             "content": "",
+            "tab_description": false,
             "page": "",
             "icon": "washing"
           }
@@ -59,6 +70,7 @@
           "settings": {
             "heading": "Shipping & Return",
             "content": "",
+            "tab_description": false,
             "page": "",
             "icon": "return"
           }
@@ -68,13 +80,9 @@
           "settings": {
             "heading": "Product Features & Fit",
             "content": "",
+            "tab_description": false,
             "page": "",
             "icon": "ruler"
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
           }
         },
         "share": {
@@ -92,10 +100,10 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "5f29e879-a4f5-49a2-922d-bcc89d552406",
         "2b4645eb-3dbc-4efd-82dc-278d441c2861",
         "a3a7a8b7-1cd1-4082-8405-37ccb59b5a86",
         "b036eaeb-9224-448c-9cfb-2ad6bf1a90a7",
-        "description",
         "share"
       ],
       "settings": {
