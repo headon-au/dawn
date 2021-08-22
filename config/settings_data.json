@@ -111,8 +111,8 @@
           "logo_position": "middle-left",
           "menu": "mega-menu",
           "show_line_separator": true,
-          "overlay": true,
-          "center": true,
+          "overlay": false,
+          "center": false,
           "enable_sticky_header": true
         }
       }
