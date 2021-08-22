@@ -30,6 +30,13 @@
             <li class="product__media-item grid__item slider__slide{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %} product__media-item--variant{% endif %}" data-media-id="{{ section.id }}-{{ media.id }}">
               {% render 'product-thumbnail', media: media, position: 'featured', loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: true %}
             </li>
+            {% if settings.half_image == true %}
+            <style>
+            .product__media-item:first-child {
+              width: calc(50% - 1rem / 2);
+          }
+          </style>
+          {%- endif -%}
           {%- endif -%}
           {%- for media in product.media -%}
             {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
@@ -101,7 +108,7 @@
             {{ block.settings.custom_liquid }}
           {%- when 'collapsible_tab' -%}
             <div class="product__accordion accordion" {{ block.shopify_attributes }}>
-              <details {%- if block.settings.tab_open == true -%}open{%endif%}>
+              <details {% if block.settings.tab_open == true %}open{%endif%}>
                 <summary>
                   <div class="summary__title">
                     {% render 'icon-accordion', icon: block.settings.icon %}
@@ -756,7 +763,24 @@
           "type": "page",
           "label": "t:sections.main-product.blocks.popup.settings.page.label"
         }
-      ]
+      ]    
+    },
+      {
+        "type": "shippinglabel",
+        "name": "Shipping announcement",
+        "settings": [
+          {
+            "id": "shipping-text",
+            "type": "text",
+            "label": "Shipping label text"
+    
+          },
+          {
+            "id": "shipping-image",
+            "type": "image_picker",
+            "label": "Shipping Icon"
+          }
+        ]
     }
   ],
   "settings": [
@@ -782,7 +806,14 @@
       "id": "enable_video_looping",
       "default": false,
       "label": "t:sections.main-product.settings.enable_video_looping.label"
-    }
+      
+    },   
+    {
+      "type": "checkbox",
+      "id": "half_image",
+      "default": false,
+      "label": "half image"
+    }  
   ]
 }
 {% endschema %}
