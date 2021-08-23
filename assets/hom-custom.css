@@ -594,7 +594,7 @@ h2.h4.accordion__title {
 
 /*Footer */
 
-.footer__column--info {
+.footer__content-bottom .footer__column--info {
     flex-direction: row;
     justify-content: space-between;
 }
