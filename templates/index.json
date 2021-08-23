@@ -30,8 +30,8 @@
         "section_fontsize_desktop": 20,
         "color_title": "#ffffff",
         "desktop_text_box_position": "center",
-        "desktop_text_box_position_related": "center",
-        "desktop_text_button_position": "center",
+        "desktop_text_box_position_related": "flex-start",
+        "desktop_text_button_position": "left",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
