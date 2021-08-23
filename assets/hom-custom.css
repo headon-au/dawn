@@ -651,17 +651,7 @@ a.pagination__item.link {
 
 
 
-@media screen and (min-width: 750px){
 
-.banner__box {
-  width: 54.8rem;
-  left: 26%;
-  top: 40%;
-  text-align: right!important;
-  color: white !important;
-  padding: 4rem;
-}
-}
 
 
 /* Product Image */
