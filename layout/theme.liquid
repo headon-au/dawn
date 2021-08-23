@@ -158,6 +158,11 @@
             e.preventDefault();
                 $(this).text('OUTFIT VIEW');
             $('.card__inner .media').toggleClass('product-image');
+            var s = $(this);
+    var originaltext= s.text();
+    $('.product-view a').text('PRODUCT VIEW');  
+      s.text(originaltext);
+    s.html(s.text() == 'PRODUCT VIEW' ? 'OUTFIT VIW' : 'PRODUCT VIEW');
             });
          });
       </script>
