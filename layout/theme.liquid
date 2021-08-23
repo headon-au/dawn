@@ -156,7 +156,7 @@
        $(document).ready(function(){
           $(".product-view a").click(function(){
             var button_value = $(this);
-            var originaltext= s.text();
+            var originaltext= button_value.text();
             $('.product-view a').text('PRODUCT VIEW');  
               button_value.text(originaltext);
               button_value.html(s.text() == 'PRODUCT VIEW' ? 'OUTFIT VIW' : 'PRODUCT VIEW');
