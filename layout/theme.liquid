@@ -154,15 +154,16 @@
     </script>
     <script>
        $(document).ready(function(){
-          $(".product-view a").click(function(e){
-            e.preventDefault();
-                $(this).text('OUTFIT VIEW');
-            $('.card__inner .media').toggleClass('product-image');
+          $(".product-view a").click(function(){
+          
             var s = $(this);
     var originaltext= s.text();
     $('.product-view a').text('PRODUCT VIEW');  
       s.text(originaltext);
     s.html(s.text() == 'PRODUCT VIEW' ? 'OUTFIT VIW' : 'PRODUCT VIEW');
+               
+            $('.card__inner .media').toggleClass('product-image');
+            
             });
          });
       </script>
