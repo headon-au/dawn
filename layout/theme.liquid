@@ -159,7 +159,7 @@
             var originaltext= button_value.text();
             $('.product-view a').text('PRODUCT VIEW');  
               button_value.text(originaltext);
-              button_value.html(s.text() == 'PRODUCT VIEW' ? 'OUTFIT VIW' : 'PRODUCT VIEW');
+              button_value.html(button_value.text() == 'PRODUCT VIEW' ? 'OUTFIT VIW' : 'PRODUCT VIEW');
             $('.card__inner .media').toggleClass('product-image');
             
             });
