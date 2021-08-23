@@ -61,7 +61,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Fabric & Care",
-            "content": "",
+            "content": "<p>{{ product.metafields.my_fields.fabric_care | metafield_tag }}<\/p>",
             "tab_description": false,
             "tab_open": false,
             "page": "",
