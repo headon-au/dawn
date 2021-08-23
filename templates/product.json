@@ -81,6 +81,7 @@
         },
         "b036eaeb-9224-448c-9cfb-2ad6bf1a90a7": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Product Features & Fit",
             "content": "",
