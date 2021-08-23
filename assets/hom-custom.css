@@ -719,13 +719,15 @@ button#Subscribe {
     box-shadow: none !important;
     border-bottom: 1px solid #000;
     padding: 15px 0;
-}.customer .field label, .field__label {
+    width: 355px;
+}
+.customer .field label, .field__label {
     left: 0;
 }
 .newsletter__wrapper .newsletter-form__field-wrapper .field {
     justify-content: space-between;
 }.newsletter__wrapper .newsletter-form__field-wrapper,.newsletter-form {
-    max-width: 600px;
+    max-width: 507px;
 }
 
 
