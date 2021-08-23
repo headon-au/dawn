@@ -1,12 +1,12 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
-{%- style -%}
+ <style>
 @media screen and (min-width: 1024px) {
      #Banner-{{ section.id }} .banner__heading h1 {
         font-size: {{ section.settings.section_fontsize_desktop }}px;
       }
     }
 
-{%- endstyle -%}
+</style>
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
   {%- style -%}
     #Banner-{{ section.id }}::before, #Banner-{{ section.id }} .banner__media::before {
