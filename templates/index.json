@@ -30,7 +30,7 @@
         "section_fontsize_desktop": 20,
         "color_title": "#ffffff",
         "desktop_text_box_position": "center",
-        "desktop_text_box_position_related": "center",
+        "desktop_text_box_position_related": "flex-start",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
@@ -137,7 +137,7 @@
         "image": "shopify:\/\/shop_images\/Banner-1.jpg",
         "image_2": "shopify:\/\/shop_images\/N21Y-5408-0011_2.jpg",
         "section_fontsize_desktop": 20,
-        "color_title": "#FFFFFF",
+        "color_title": "#ffffff",
         "desktop_text_box_position": "center",
         "desktop_text_box_position_related": "flex-start",
         "color_scheme": "background-1",
