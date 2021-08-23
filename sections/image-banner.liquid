@@ -3,9 +3,11 @@
 @media screen and (min-width: 1024px) {
      #Banner-{{ section.id }} h2.banner__heading.h1 {
         font-size: {{ section.settings.section_fontsize_desktop }}px;
-        color: {{ section.settings.color_title }};
       }
     }
+   #Banner-{{ section.id }} h2.banner__heading.h1 {
+     color: {{ section.settings.color_title }};
+   }
 
 </style>
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
