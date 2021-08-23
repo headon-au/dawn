@@ -583,6 +583,12 @@ h2.h4.accordion__title {
     flex-wrap: wrap;
     flex-direction: column;
 }
+.banner {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    min-height: initial;
+}
 
 
 @media screen and (min-width: 750px){
