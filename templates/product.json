@@ -33,16 +33,17 @@
             "picker_type": "button"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
+          }
+        },
+        "8fc838cd-180f-4c98-93c0-812aaea451f0": {
+          "type": "shippinglabel",
+          "settings": {
+            "shipping-text": "test",
+            "shipping-image": "shopify:\/\/shop_images\/favicon-32x32_32x32_d3b532af-4696-4cec-a19d-e967b812fb25.png"
           }
         },
         "5f29e879-a4f5-49a2-922d-bcc89d552406": {
@@ -102,8 +103,8 @@
         "price",
         "1dc5a3d4-a6dd-4a05-9959-4c66c0927329",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons",
+        "8fc838cd-180f-4c98-93c0-812aaea451f0",
         "5f29e879-a4f5-49a2-922d-bcc89d552406",
         "2b4645eb-3dbc-4efd-82dc-278d441c2861",
         "a3a7a8b7-1cd1-4082-8405-37ccb59b5a86",
