@@ -546,9 +546,24 @@ h2.h4.accordion__title {
   background: none;
 }
 
-.banner__content {    border: 1px solid #fff;
+.banner__content {   
+  border: 1px solid #fff;
     max-width: 1800px;
+  display: block
 }
+
+.banner__box {
+    padding: 4rem;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 
 @media screen and (min-width: 750px){
 
