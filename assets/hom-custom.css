@@ -564,6 +564,33 @@ h2.h4.accordion__title {
     flex-direction: column;
 }
 
+.banner__content .banner__box {
+      width: 620px;
+    }
+
+    .banner__heading h1 span {
+      text-align: center;
+      width: 100%;
+      color: #000000!important;
+      font-family: Campton Light!important;
+      font-size: 35px;
+      font-weight: 300;
+      letter-spacing: 0;
+      line-height: 41px;
+    }
+
+    h2.banner__heading.h1 {
+      text-align: left;
+      width: 100%;
+      color: #ffffff;
+      font-family: Campton Light;
+      font-size: 80px;
+      font-weight: 300;
+      letter-spacing: 0;
+      line-height: 41px;
+      line-height: 90px;
+    }
+
 
 @media screen and (min-width: 750px){
 
