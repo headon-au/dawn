@@ -1,7 +1,7 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
  <style>
 @media screen and (min-width: 1024px) {
-     #Banner-{{ section.id }} .banner__heading h1 {
+     #Banner-{{ section.id }} h2.banner__heading.h1 {
         font-size: {{ section.settings.section_fontsize_desktop }}px;
       }
     }
