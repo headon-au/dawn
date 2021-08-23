@@ -536,6 +536,49 @@ h2.h4.accordion__title {
     margin-top: -6px;
 }
 
+.facets__summary span {
+    font-size: 12px;
+    color: black;
+}
+
+select#SortBy {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Work Sans';
+    color: black;
+}
+
+.collection-filters__label {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Work Sans',sans-serif;
+    color: black;
+}
+
+p.facets__heading.caption-large {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: black;
+}
+
+p#CollectionProductCountDesktop {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+span.price-item.price-item--regular {
+    font-size: 12px;
+}
+
+a.pagination__item.link {
+    font-size: 12px;
+}
+
+.pagination__item--current {
+    font-size: 12px;
+}
+
 
   /* Collection List */
 
