@@ -24,7 +24,7 @@
           "type": "popup",
           "settings": {
             "text": "Fit Guide",
-            "page": ""
+            "page": "size-guide"
           }
         },
         "variant_picker": {
