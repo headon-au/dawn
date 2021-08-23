@@ -704,6 +704,18 @@ button#Subscribe {
     justify-content: space-between;
 }
 
+small.copyright__content {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.footer-block__details-content.rte {
+    font-family: 'Work Sans',sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+}
 
 .collection-container .grid.show-product-images .grid__item .grid-view-item__image-wrapper .grid-view-item__image {
   opacity: 0.0;
