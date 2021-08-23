@@ -646,6 +646,10 @@ a.card {
   color: white;
 }
 
+.banner__box > * {
+    width: 100%;
+    text-align: left;
+}
 .banner__box.color-background-1 {
   background: none;
 }
