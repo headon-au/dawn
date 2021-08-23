@@ -8,10 +8,6 @@
    #Banner-{{ section.id }} h2.banner__heading.h1 {
      color: {{ section.settings.color_title }};
    }
-   #Banner-{{ section.id }} .banner__box > * {
-    width: 100%;
-    text-align: {{ section.settings.desktop_text_button_position }};
-}
 
 </style>
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
@@ -84,7 +80,7 @@
               <span>{{ block.settings.text | escape }}</span>
             </div>
           {%- when 'buttons' -%}
-            <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_link_1 != blank and block.settings.button_label_2 != blank and block.settings.button_link_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
+            <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_link_1 != blank and block.settings.button_label_2 != blank and block.settings.button_link_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }} style="text-align: {{ section.settings.desktop_text_button_position }};">
               {%- if block.settings.button_label_1 != blank -%}
                 <a{% if block.settings.button_link_1 != blank %} href="{{ block.settings.button_link_1 }}"{% endif %} class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"{% if block.settings.button_link_1 == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label_1 | escape }}</a>
               
