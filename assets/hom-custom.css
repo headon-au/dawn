@@ -284,6 +284,16 @@ nav.header__inline-menu {
     width: calc(100% - 150px);
     text-align: center;
 }
+.header__menu-item span {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+a.link.link--text.list-menu__item.list-menu__item--link {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: black;
+}
 
 @media screen and (min-width: 990px){
 .header {
@@ -301,8 +311,20 @@ nav.header__inline-menu {
 /********* Product Page *********/
 
 h1.product__title{
-    font-size: 28px;
+     font-size 24px;
     margin-top: 20px!important;
+}
+
+.accordion__content.rte{
+    font-family: 'Work Sans',sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+    
+}
+
+span.price-item.price-item--regular {
+    font-size: 12px;
 }
 
 @media screen and (min-width: 990px){
