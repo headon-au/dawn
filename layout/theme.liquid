@@ -154,12 +154,11 @@
     </script>
     <script>
        $(document).ready(function(){
-          $(".product-view a").click(function(){
+          $(".product-view a").click(function(e){
+            e.preventDefault();
+                $(this).text('OUTFIT VIEW');
             $('.card__inner .media').toggleClass('product-image');
-             if ($('.card__inner').hasClass('product-image')) {
-               $(".product-view a").text('OUTFIT VIEW');
-             }else{
-               $(".product-view a").text('PRODUCT VIEW');
+             
              }
             });
          });
