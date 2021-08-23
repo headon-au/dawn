@@ -155,14 +155,12 @@
     <script>
        $(document).ready(function(){
           $(".product-view a").click(function(){
+            $('.card__inner .media').addClass('product-image');
+               $(".product-view a").text('OUTFIT VIEW');
              if ($('.card__inner').hasClass('product-image')) {
                $('.card__inner .media').removeClass('product-image');
                $(".product-view a").text('PRODUCT VIEW');
-             } else{
-               $('.card__inner .media').addClass('product-image');
-               $(".product-view a").text('OUTFIT VIEW');
-               
-             }
+             } 
             });
          });
       </script>
