@@ -72,7 +72,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping & Return",
-            "content": "<p>Orders will be dispatched within 24 hours of placing your order. Our warehouse is based in Melbourne, Australia, so shipping times may vary depending on your location. Please note that all orders received after 12pm on a Friday and over the weekend are processed the following Monday.<\/p>",
+            "content": "<p><strong>Shipping:<\/strong><\/p><p>Orders will be dispatched within 24 hours of placing your order. Our warehouse is based in Melbourne, Australia, so shipping times may vary depending on your location. Please note that all orders received after 12pm on a Friday and over the weekend are processed the following Monday. <a href=\"\/policies\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">Read More<\/a><\/p><p><\/p><p><strong>Return:<\/strong><\/p><p>You have 15 days to decide if an item is right for you. We offer exchanges and refunds on products with a receipt within 15 days of purchase. <a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">Read More<\/a><\/p>",
             "tab_description": false,
             "tab_open": false,
             "page": "",
