@@ -275,7 +275,10 @@ p {
     margin-block-end: 1.67em;
   }
 
-
+.page-width {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 /********* Header *********/
 nav.header__inline-menu {
     width: calc(100% - 150px);
