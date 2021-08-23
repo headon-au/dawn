@@ -592,6 +592,12 @@ h2.h4.accordion__title {
 }
 
 
+/*Footer */
+
+.footer__column--info {
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 
 .collection-container .grid.show-product-images .grid__item .grid-view-item__image-wrapper .grid-view-item__image {
