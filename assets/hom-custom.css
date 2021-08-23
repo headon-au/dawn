@@ -617,8 +617,27 @@ a.pagination__item.link {
   color: white;
 }
 
+
+.card--light-border {
+    border: 0;
+}
+
+a.card {
+    margin-bottom: 25px;
+    color: white;
+}
 .card__text.card__text-spacing {
-  margin-top: -14.4rem;
+    margin-top: -20rem;
+}
+
+.card-colored.color-background-1 {
+    background-color: rgb(0 0 0 / 0%);
+}
+
+.button, .button-label, .customer button, .shopify-challenge__button {
+    font-size: 12px;
+    font-family: 'Work Sans',sans-serif;
+    text-transform: uppercase;
 }
 
 /* Banner */
