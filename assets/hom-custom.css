@@ -650,7 +650,10 @@ a.card {
 .banner__box.color-background-1 {
   background: none;
 }
-
+.banner__box > * {
+    width: 100%;
+   
+}
 
 /*.banner__content {   
   border: 1px solid #fff;
