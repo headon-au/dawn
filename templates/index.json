@@ -28,6 +28,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/n21y-2430-0007-yarasa-kol-piliseli-mini-elbise-637556618823632060.jpg",
         "desktop_text_box_position": "center",
+        "desktop_text_box_position_related": "center",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
@@ -134,6 +135,7 @@
         "image": "shopify:\/\/shop_images\/Banner-1.jpg",
         "image_2": "shopify:\/\/shop_images\/N21Y-5408-0011_2.jpg",
         "desktop_text_box_position": "center",
+        "desktop_text_box_position_related": "flex-start",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
