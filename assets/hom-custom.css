@@ -654,11 +654,11 @@ a.card {
   background: none;
 }
 
-.banner__content {   
+/*.banner__content {   
   border: 1px solid #fff;
     max-width: 1800px;
   display: block
-}
+} */
 
 .banner__box {
     padding: 4rem;
