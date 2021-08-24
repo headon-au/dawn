@@ -773,6 +773,9 @@ small.copyright__content {
     font-weight: 300;
     color: black;
 }
+ul.footer__list-social.list-unstyled.list-social {
+    justify-content: center;
+}
 
 .collection-container .grid.show-product-images .grid__item .grid-view-item__image-wrapper .grid-view-item__image {
   opacity: 0.0;
