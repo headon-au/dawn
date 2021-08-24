@@ -966,7 +966,7 @@ span.active-facets__button-inner {
  }
   
   .banner__heading>, .banner__text> {
-    color: black;
+    color: black!important;
 }
   
  
