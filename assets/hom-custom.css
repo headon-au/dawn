@@ -613,6 +613,9 @@ a.pagination__item.link {
   background-color: rgba(var(--color-foreground),.0)!important;
 }
 
+.card--light-border {
+    border: 0rem solid rgba(var(--color-foreground),.04)!important;
+}
 .card__text h3 {
   color: white;
 }
