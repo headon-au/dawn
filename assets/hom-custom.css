@@ -974,7 +974,6 @@ button#Subscribe {
     margin-left: 0px;
 }
  .newsletter__wrapper .newsletter-form__field-wrapper .field {
-     justify-content: space-between; 
     flex-direction: column;
 }
   
