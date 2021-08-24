@@ -774,7 +774,7 @@ small.copyright__content {
     color: black;
 }
 ul.footer__list-social.list-unstyled.list-social {
-    justify-content: center;
+    justify-content: flex-start;
    padding-left: 0;
 }
 
