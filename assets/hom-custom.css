@@ -701,19 +701,12 @@ a.card {
     flex-direction: column;
 }
 
+/* shipping policy */
 
-.rte table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-  border: 1px solid #ddd;
+.shipping-policy-data{
+overflow: scroll;
+    padding: 2px 2px;
 }
-
-.rte table th, td {
-  text-align: left;
-  padding: 8px;
-}
-
 
 
 /* Product Image */
