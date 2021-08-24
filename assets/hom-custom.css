@@ -965,6 +965,10 @@ span.active-facets__button-inner {
     padding: 2px 2px;
  }
   
+  .media>:not(.zoom,.deferred-media__poster-button) {
+    position: inherit !important;
+}
+  
  
 }
  
