@@ -152,7 +152,7 @@
       }
     </script>
     <script>
-       
+       $(document).ready(function(){
           $(".product-view a").click(function(){
             var button_value = $(this);
             var originaltext= button_value.text();
@@ -160,7 +160,7 @@
               button_value.html(button_value.text() == 'PRODUCT VIEW' ? 'OUTFIT VIEW' : 'PRODUCT VIEW');
             $('.card__inner .media').addClass('product-image');
             
-            
+            });
          });
     </script>
   </body>
