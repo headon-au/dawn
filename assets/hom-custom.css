@@ -979,10 +979,12 @@ button#Subscribe {
  .newsletter__wrapper .newsletter-form__field-wrapper .field {
     flex-direction: column;
 }
- .newsletter__wrapper .newsletter-form__field-wrapper .field .field__input {
+ .newsletter-form__field-wrapper .field .field__input {
     width: 100%;
 }
-  
+  .newsletter-form__field-wrapper .field {
+       align-items: center;
+}
   
   
 }
