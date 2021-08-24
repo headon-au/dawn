@@ -509,6 +509,18 @@
   {%- endpaginate -%}
 </div>
 
+ <script>
+function changeText(idElement) {
+    var element = document.getElementById('element' + idElement);
+	var element2 = document.getElementById("test");
+	element2.classList.toggle("mystyle");
+        if (element.innerHTML === 'PRODUCT VIEW')
+		element.innerHTML = 'OUTFIT VIEW';
+        else {
+            element.innerHTML = 'PRODUCT VIEW';
+    }
+}
+</script>
 {% schema %}
 {
   "name": "t:sections.main-collection-product-grid.name",
