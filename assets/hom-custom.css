@@ -775,11 +775,9 @@ small.copyright__content {
 }
 ul.footer__list-social.list-unstyled.list-social {
     justify-content: center;
+   padding-left: 0;
 }
 
-.rte ul {
-    padding-left: 0;
-}
 
 .collection-container .grid.show-product-images .grid__item .grid-view-item__image-wrapper .grid-view-item__image {
   opacity: 0.0;
