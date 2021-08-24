@@ -182,7 +182,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Silk Serif';
+    font-family: 'Silk Serif'!important;
     font-weight: normal;
     text-transform: uppercase;
 }
