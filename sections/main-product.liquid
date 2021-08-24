@@ -65,6 +65,7 @@
         </button>
       {%- endif -%}
     </div>
+    <div class="mysize"></div> 
     <div class="product__info-wrapper grid__item">
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
@@ -91,7 +92,6 @@
                 {{ form | payment_terms }}
               {%- endform -%}
             </div>
-            <br>
             {% comment %} Begin Shopify-Afterpay JavaScript Snippet (v1.0.10) {% endcomment %} 
 <script type="text/javascript">
   // Overrides:
@@ -116,8 +116,6 @@
   <script type="text/javascript" src="https://static.afterpay.com/shopify-afterpay-javascript.js"></script>
   {% comment %} END Shopify-Afterpay JavaScript Snippet (v1.0.10) {% endcomment %} 
 
-  <div class="mysize"></div> 
-  
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               <div class="product__description rte">
