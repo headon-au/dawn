@@ -617,6 +617,11 @@ a.pagination__item.link {
     font-size: 12px;
 }
 
+/* Collection Title*/
+
+.collection-hero__text-wrapper {
+    text-align: center;
+}
 
   /* Collection List */
 
