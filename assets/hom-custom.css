@@ -755,12 +755,7 @@ button#Subscribe {
 }
 
 
- /* shipping policy */
-
-.shipping-data{
-    overflow: scroll;
-    padding: 2px 2px;
-}
+ 
 
 
 /* Footer */
@@ -946,6 +941,12 @@ span.active-facets__button-inner {
   .footer__content-bottom .footer__column--info {
     flex-direction: column;
     padding: 0;
+}
+  /* shipping policy */
+
+.shipping-data{
+    overflow: scroll;
+    padding: 2px 2px;
 }
  
   
