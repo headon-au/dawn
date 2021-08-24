@@ -779,6 +779,106 @@ ul.footer__list-social.list-unstyled.list-social {
 }
 
 
+/* Mobile Menu */
+a.menu-drawer__menu-item {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+summary.menu-drawer__menu-item.list-menu__item {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.menu-drawer__close-button {
+    font-size: 12px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+/* Mobile Filter */
+
+.facets__summary>div, .mobile-facets__summary>div {
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+}
+
+select#SortBy-mobile {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Work Sans';
+    color: black;
+}
+
+button.mobile-facets__close-button.link.link--text.focus-inset {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+label.mobile-facets__label {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.mobile-facets__count {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+p.mobile-facets__info {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: black;
+}
+
+price-range.facets__price {
+    max-width: 100%;
+    display: block;
+}
+
+.facets__price .field-currency {
+    margin-left: 1.9rem;
+    color: black;
+}
+
+input#Mobile-Filter-Price-GTE {
+    font-size: 12px;
+}
+
+.facets__price .field__label {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.collection-product-count__text {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+span.active-facets__button-inner {
+    border-radius: 0px;
+    line-height: 13px;
+}
+
+@media screen and (max-width: 989px){
+.active-facets__button, .active-facets__button-remove {
+    padding-right: 0px;
+}
+}
+
+.active-facets__button, .active-facets__button-remove {
+    text-transform: uppercase;
+}
+
 .collection-container .grid.show-product-images .grid__item .grid-view-item__image-wrapper .grid-view-item__image {
   opacity: 0.0;
   filter: alpha(opacity=0);
