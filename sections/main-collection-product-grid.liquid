@@ -156,7 +156,7 @@
               </noscript>
             </div>
             <div class="product-view">
-             <a  id="element1"  href="javascript:void(0)" onClick="javascript:changeText(1)" class="product-view-button">PRODUCT VIEW</a>
+             <a href="javascript:void(0)" class="product-view-button">PRODUCT VIEW</a>
             </div>
 
             <div class="active-facets active-facets-desktop">
@@ -453,7 +453,7 @@
         {%- endif -%}
       </p>
       <div class="product-view">
-             <a  id="element1"  href="javascript:void(0)" onClick="javascript:changeText(1)" class="product-view-button">PRODUCT VIEW</a>
+             <a href="javascript:void(0)" class="product-view-button">PRODUCT VIEW</a>
             </div>
       <div class="loading-overlay__spinner">
         <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
@@ -509,18 +509,6 @@
   {%- endpaginate -%}
 </div>
 
- <script>
-function changeText(idElement) {
-    var element = document.getElementById('element' + idElement);
-	var element2 = document.getElementsByClassName("media");
-	element2.classList.toggle("product-image");
-        if (element.innerHTML === 'PRODUCT VIEW')
-		element.innerHTML = 'OUTFIT VIEW';
-        else {
-            element.innerHTML = 'PRODUCT VIEW';
-    }
-}
-</script>
 {% schema %}
 {
   "name": "t:sections.main-collection-product-grid.name",
