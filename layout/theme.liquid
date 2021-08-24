@@ -158,7 +158,7 @@
             var originaltext= button_value.text();
               button_value.text(originaltext);
               button_value.html(button_value.text() == 'PRODUCT VIEW' ? 'OUTFIT VIEW' : 'PRODUCT VIEW');
-            if ($(".product-view a").val() == "1"){
+            if ($(".product-view a").text() == "OUTFIT VIEW"){
             $('.card__inner .media').toggleClass('product-image');
             }
             
