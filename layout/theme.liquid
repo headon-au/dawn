@@ -158,10 +158,10 @@
             var originaltext= button_value.text();
               button_value.text(originaltext);
               button_value.html(button_value.text() == 'PRODUCT VIEW' ? 'OUTFIT VIEW' : 'PRODUCT VIEW');
-            if ($('.card__inner .media').hasClass('product-image')) {
-            $(".card__inner .media").addClass("product-image");
+            if ($('#main-collection-product-grid li .card__inner .media').hasClass('product-image')) {
+            $("#main-collection-product-grid li .card__inner .media").addClass("product-image");
         } else {
-            $(".card__inner .media").removeClass("product-image");
+            $("#main-collection-product-grid li .card__inner .media").removeClass("product-image");
         }
     
             
