@@ -914,7 +914,7 @@ span.active-facets__button-inner {
     padding-top: 5rem;
 }
 
-@media screen and (max-width: 749px)
+@media screen and (max-width: 749px){
 
 .product-view {
     margin-top: 5px;
