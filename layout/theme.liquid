@@ -152,16 +152,16 @@
       }
     </script>
     <script>
-       $(document).ready(function(){
-          $(".product-view a").click(function(){
-            var button_value = $(this);
-            var originaltext= button_value.text();
-              button_value.text(originaltext);
-              button_value.html(button_value.text() == 'PRODUCT VIEW' ? 'OUTFIT VIEW' : 'PRODUCT VIEW');
-            $('.card__inner .media').toggleClass('product-image');
-            
-            });
-         });
-    </script>
+function changeText(idElement) {
+    var element = document.getElementById('element' + idElement);
+	var element2 = document.getElementById("test");
+	element2.classList.toggle("mystyle");
+        if (element.innerHTML === 'PRODUCT VIEW')
+		element.innerHTML = 'OUTFIT VIEW';
+        else {
+            element.innerHTML = 'PRODUCT VIEW';
+    }
+}
+</script>
   </body>
 </html>
