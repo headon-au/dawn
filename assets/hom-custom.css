@@ -960,13 +960,13 @@ span.active-facets__button-inner {
 }
   /* shipping policy */
 
-.shipping-data{
+.shipping-data {
     overflow: scroll;
     padding: 2px 2px;
  }
   
-  .banner__box{
-    height: 0px;
+  .banner__box {
+    height: 0px!important;
     text-align: left;
   }
 }
