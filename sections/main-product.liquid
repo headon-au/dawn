@@ -91,10 +91,8 @@
                 {{ form | payment_terms }}
               {%- endform -%}
             </div>
-
+            <br>
             {% comment %} Begin Shopify-Afterpay JavaScript Snippet (v1.0.10) {% endcomment %} 
-<br>
-<br>
 <script type="text/javascript">
   // Overrides:
   // var afterpay_min = 0.04;            // As per your Afterpay contract.
@@ -118,6 +116,8 @@
   <script type="text/javascript" src="https://static.afterpay.com/shopify-afterpay-javascript.js"></script>
   {% comment %} END Shopify-Afterpay JavaScript Snippet (v1.0.10) {% endcomment %} 
 
+  <div class="mysize"></div> 
+  
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               <div class="product__description rte">
