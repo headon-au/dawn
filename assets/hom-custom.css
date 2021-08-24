@@ -701,14 +701,6 @@ a.card {
     flex-direction: column;
 }
 
-/* shipping policy */
-
-.shipping-policy-data{
-overflow: scroll;
-    padding: 2px 2px;
-}
-
-
 /* Product Image */
 
 .media.media--hover-effect.product-image > img + img {
@@ -950,5 +942,12 @@ span.active-facets__button-inner {
     flex-direction: column;
     padding: 0;
 }
+  /* shipping policy */
+
+.shipping-policy-data{
+overflow: scroll;
+    padding: 2px 2px;
+}
+  
 }
 
