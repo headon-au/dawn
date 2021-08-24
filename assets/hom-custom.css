@@ -979,9 +979,10 @@ button#Subscribe {
  .newsletter__wrapper .newsletter-form__field-wrapper .field {
     flex-direction: column;
 }
-  .field__input, .newsletter__subheading .customer .field input {
-    width : auto;
-    
-  }
+ .newsletter__wrapper .newsletter-form__field-wrapper .field .field__input {
+    width: 100%;
+}
+  
+  
   
 }
