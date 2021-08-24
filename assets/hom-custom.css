@@ -308,6 +308,22 @@ a.link.link--text.list-menu__item.list-menu__item--link {
     font-size: 14px;
     }
 
+
+/* Page Layouts */
+
+.shopify-policy__container {
+    max-width: 100rem;
+    margin-bottom: 50px;
+}
+.page-width.page-width--narrow {
+    max-width: 100rem;
+    margin-bottom: 50px;
+}
+
+h1.main-page-title {
+    font-size: 28px;
+}
+
 /********* Product Page *********/
 
 h1.product__title{
