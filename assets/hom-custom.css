@@ -511,10 +511,11 @@ h2.h4.accordion__title {
       padding: 40px;
     }
 
-    .header {
-      padding-left: 40px;
-      padding-right: 40px;
-    }
+   .header {
+    padding-left: 40px;
+    padding-right: 40px;
+    z-index: 99999;
+}
 
     h4.collection-menu-title a {
       text-decoration: none;
