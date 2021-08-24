@@ -777,6 +777,10 @@ ul.footer__list-social.list-unstyled.list-social {
     justify-content: center;
 }
 
+.rte ul {
+    padding-left: 0;
+}
+
 .collection-container .grid.show-product-images .grid__item .grid-view-item__image-wrapper .grid-view-item__image {
   opacity: 0.0;
   filter: alpha(opacity=0);
