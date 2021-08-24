@@ -6,7 +6,13 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand"
+            "heading": "Welcome to nocturne"
+          }
+        },
+        "a86e7d3c-0373-4fdf-b44a-ca00a511110d": {
+          "type": "text",
+          "settings": {
+            "text": "Nocturne Australia we’ve arrived"
           }
         },
         "button": {
@@ -23,6 +29,7 @@
       },
       "block_order": [
         "heading",
+        "a86e7d3c-0373-4fdf-b44a-ca00a511110d",
         "button"
       ],
       "settings": {
