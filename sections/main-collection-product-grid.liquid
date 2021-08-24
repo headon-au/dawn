@@ -512,7 +512,7 @@
  <script>
 function changeText(idElement) {
     var element = document.getElementById('element' + idElement);
-	var element2 = document.getElementById("product-view");
+	var element2 = document.getElementByClass("media");
 	element2.classList.toggle("product-image");
         if (element.innerHTML === 'PRODUCT VIEW')
 		element.innerHTML = 'OUTFIT VIEW';
