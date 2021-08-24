@@ -783,6 +783,26 @@ ul.footer__list-social.list-unstyled.list-social {
    padding-left: 0;
 }
 
+/* Afterpay Formatting */
+span.afterpay-text1 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+strong.afterpay-instalments {
+    font-size: 12px;
+}
+
+span.afterpay-text2 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+a.afterpay-link {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+}
 
 /* Mobile Menu */
 a.menu-drawer__menu-item {
