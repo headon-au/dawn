@@ -158,7 +158,14 @@
             var originaltext= button_value.text();
               button_value.text(originaltext);
               button_value.html(button_value.text() == 'PRODUCT VIEW' ? 'OUTFIT VIEW' : 'PRODUCT VIEW');
-            $('.card__inner .media').toggleClass('product-image');
+            if (jQuery('.card__inner .media').hasClass('product-image')) {
+            jQuery(".card__inner .media").addClass("product-image");
+        } else {
+            jQuery(".card__inner .media").removeClass("product-image");
+        }
+    });
+            
+           // $('.card__inner .media').toggleClass('product-image');
             
             });
          });
