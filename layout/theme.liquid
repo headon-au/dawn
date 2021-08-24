@@ -158,9 +158,7 @@
             var originaltext= button_value.text();
               button_value.text(originaltext);
               button_value.html(button_value.text() == 'PRODUCT VIEW' ? 'OUTFIT VIEW' : 'PRODUCT VIEW');
-            if ( $(this).text() == "PRODUCT VIEW"){
             $('.card__inner .media').toggleClass('product-image');
-            }
             
             });
          });
