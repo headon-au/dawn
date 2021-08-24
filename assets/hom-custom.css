@@ -939,4 +939,9 @@ span.active-facets__button-inner {
 .product-view {
     margin-top: 5px;
 }
+  .footer__content-bottom .footer__column--info {
+    flex-direction: column;
+    padding: 0;
 }
+}
+
