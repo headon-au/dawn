@@ -294,6 +294,9 @@ a.link.link--text.list-menu__item.list-menu__item--link {
     text-transform: uppercase;
     color: black;
 }
+.header__submenu .header__menu-item {
+    font-size: 12px;
+}
 
 @media screen and (min-width: 990px){
 .header {
