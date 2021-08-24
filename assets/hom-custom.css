@@ -964,7 +964,10 @@ span.active-facets__button-inner {
     overflow: scroll;
     padding: 2px 2px;
  }
-  
+  .banner .banner__content {
+    position: absolute;
+    bottom: 0;
+}
  
 }
  
