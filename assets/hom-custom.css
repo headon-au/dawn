@@ -285,8 +285,11 @@ p {
       margin-top: -1rem;
       font-size: 20px;
   }
+  section#shopify-section-template--14938237632663__1629520306b1ef3d4a {
+    margin-top: -49px!important;
+}
   }
-  
+
 /********* Header *********/
 nav.header__inline-menu {
     width: calc(100% - 150px);
