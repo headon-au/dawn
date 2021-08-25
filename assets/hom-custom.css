@@ -279,6 +279,14 @@ p {
     max-width: 150rem;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 749px){
+  .collection .title:not(.title--no-heading) {
+      margin-top: -1rem;
+      font-size: 20px;
+  }
+  }
+  
 /********* Header *********/
 nav.header__inline-menu {
     width: calc(100% - 150px);
@@ -1057,5 +1065,7 @@ td, th {
   border: 1px solid #ffffff;
   border-bottom: 1px solid black;
 }
+
+
 
 
