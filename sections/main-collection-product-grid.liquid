@@ -4,11 +4,13 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
 
+
 <link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
 <script src="{{ 'collection-filters-form.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'jquery.min.js' | asset_url }}"></script>
 
 {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
 
@@ -508,6 +510,22 @@
     {%- endif -%}
   {%- endpaginate -%}
 </div>
+<script>
+       $(document).ready(function(){
+          $(".product-view a").click(function(){
+            var button_value = $(this);
+            var originaltext= button_value.text();
+              button_value.text(originaltext);
+              button_value.html(button_value.text() == 'PRODUCT VIEW' ? 'OUTFIT VIEW' : 'PRODUCT VIEW');
+            if ($('#main-collection-product-grid li .card__inner .media').hasClass('product-image')) {
+            $("#main-collection-product-grid li .card__inner .media").removeClass("product-image");
+        } else {
+            $("#main-collection-product-grid li .card__inner .media").attr("class", "media media--transparent media--adapt media--hover-effect product-image");
+        }
+            
+            });
+         });
+    </script>
 
 {% schema %}
 {

@@ -108,7 +108,7 @@
     {%- endunless -%}
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
   </head>
 
   <body>
@@ -151,21 +151,6 @@
         shareSuccess: `{{ 'general.share.success_message' | t }}`,
       }
     </script>
-    <script>
-       $(document).ready(function(){
-          $(".product-view a").click(function(){
-            var button_value = $(this);
-            var originaltext= button_value.text();
-              button_value.text(originaltext);
-              button_value.html(button_value.text() == 'PRODUCT VIEW' ? 'OUTFIT VIEW' : 'PRODUCT VIEW');
-            if ($('#main-collection-product-grid li .card__inner .media').hasClass('product-image')) {
-            $("#main-collection-product-grid li .card__inner .media").removeClass("product-image");
-        } else {
-            $("#main-collection-product-grid li .card__inner .media").attr("class", "media media--transparent media--adapt media--hover-effect product-image");
-        }
-            
-            });
-         });
-    </script>
+    
   </body>
 </html>
