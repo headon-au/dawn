@@ -972,16 +972,7 @@ span.active-facets__button-inner {
     display: none;
 }
   
-  .banner .media model-viewer, .media>:not(.zoom,.deferred-media__poster-button) {
-    display: block;
-    max-width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
-
+  
  
 }
  
