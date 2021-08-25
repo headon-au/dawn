@@ -150,7 +150,7 @@
         "desktop_text_box_position_related": "flex-start",
         "desktop_text_button_position": "left",
         "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
         "adapt_height_first_image": false
       }
     },
