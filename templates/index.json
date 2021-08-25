@@ -151,7 +151,7 @@
         "desktop_text_button_position": "left",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": true
+        "adapt_height_first_image": false
       }
     },
     "featured_products": {
