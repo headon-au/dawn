@@ -363,7 +363,7 @@ modal-opener.product-popup-modal__opener.no-js-hidden {
 }
 
 #embeddedMySize {
-    z-index: 1;
+    z-index: 1!important;
 }
 
 @media screen and (min-width: 990px){
