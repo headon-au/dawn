@@ -43,7 +43,9 @@
           "type": "shippinglabel",
           "settings": {
             "shipping-text": "FAST & FREE SHIPPING",
-            "shipping-image": "shopify:\/\/shop_images\/Shipping_Truck.png"
+            "shipping-image": "shopify:\/\/shop_images\/Shipping_Truck.png",
+            "second-shipping-text": "30 DAY EASY RETURNS",
+            "second-shipping-image": "shopify:\/\/shop_images\/Free_Returns.png"
           }
         },
         "5f29e879-a4f5-49a2-922d-bcc89d552406": {
