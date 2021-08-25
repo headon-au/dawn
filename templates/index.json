@@ -142,7 +142,8 @@
         "16295204284fbda2d2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Back-to-Nature.jpg",
+        "image": "shopify:\/\/shop_images\/Back-to-Nature-2.jpg",
+        "image_2": "shopify:\/\/shop_images\/Back-to-Nature-1.jpg",
         "section_fontsize_desktop": 20,
         "color_title": "#ffffff",
         "desktop_text_box_position": "flex-end",
