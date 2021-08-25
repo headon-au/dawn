@@ -968,7 +968,7 @@ span.active-facets__button-inner {
     position: absolute;
     bottom: 0;
 }
-  .banner__media.media.banner__media-half::first-of-type { 
+  .banner__media.media.banner__media-half:first-of-type { 
     display: none;
 }
  
