@@ -205,6 +205,15 @@
         "show_view_all": false
       }
     },
+    "16298800954d9cb0ab": {
+      "type": "instafeed",
+      "settings": {
+        "heading_font": "helvetica_n4",
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    },
     "1629520998c3c1a73a": {
       "type": "newsletter",
       "blocks": {
@@ -245,6 +254,7 @@
     "16295204284fbda2d2",
     "featured_products",
     "16295208513c36108c",
+    "16298800954d9cb0ab",
     "1629520998c3c1a73a"
   ]
 }
