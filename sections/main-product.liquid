@@ -118,6 +118,29 @@
   {% comment %} END Shopify-Afterpay JavaScript Snippet (v1.0.10) {% endcomment %} 
   
   <div class="mysize"></div> 
+         {%- when 'shippinglabel' -%}
+          <div class="product__shipping-area">
+            <div class="shippingData{% if block.settings.second-shipping-image == blank and block.settings.second-shipping-text == blank %} first-item {% endif %}">
+              <div class="shipping-label-icon">
+                 <img src="{{ block.settings.shipping-image | img_url: "80x" }}" alt="{{ block.settings.shipping-image.alt | escape }}">
+              </div>
+              <div class="shipping-label">
+                 {{ block.settings.shipping-text }}
+              </div>
+            </div>
+          <div class="shippingData">
+            {% if  block.settings.second-shipping-image != blank %}
+             <div class="shipping-label-icon">
+                 <img src="{{ block.settings.second-shipping-image | img_url: "80x" }}" alt="{{ block.settings.second-shipping-image.alt | escape }}">
+              </div>
+            {% endif %}
+            {% if block.settings.second-shipping-text != blank %}
+              <div class="shipping-label">
+                 {{ block.settings.second-shipping-text }}
+              </div>
+            {% endif %}
+            </div>
+          </div>
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               <div class="product__description rte">
@@ -799,20 +822,32 @@
         }
       ]    
     },
-      {
+       {
         "type": "shippinglabel",
         "name": "Shipping announcement",
         "settings": [
           {
             "id": "shipping-text",
             "type": "text",
-            "label": "Shipping label text"
+            "label": "First Shipping label text"
     
           },
+
           {
             "id": "shipping-image",
             "type": "image_picker",
-            "label": "Shipping Icon"
+            "label": "First Shipping Icon"
+          },
+        {
+            "id": "second-shipping-text",
+            "type": "text",
+            "label": "Second Shipping label text"
+    
+          },
+         {
+            "id": "second-shipping-image",
+            "type": "image_picker",
+            "label": "Second Shipping Icon"
           }
         ]
     }
