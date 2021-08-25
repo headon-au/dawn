@@ -1,15 +1,97 @@
 # we use Shopify as our ecommerce platform
-{%- comment -%}
-# Caution! Please read https://help.shopify.com/en/manual/promoting-marketing/seo/editing-robots-txt before proceeding to make changes to this file.
-{% endcomment %}
-{% for group in robots.default_groups %}
-  {{- group.user_agent -}}
 
-  {% for rule in group.rules %}
-    {{- rule -}}
-  {% endfor %}
+User-agent: *
+Disallow: /a/downloads/-/*
+Disallow: /blogs/*+*
+Disallow: /blogs/*%2B*
+Disallow: /blogs/*%2b*
+Disallow: /*/blogs/*+*
+Disallow: /*/blogs/*%2B*
+Disallow: /*/blogs/*%2b*
+Disallow: /*?*oseid=*
+Disallow: /*preview_theme_id*
+Disallow: /*preview_script_id*
+Disallow: /apple-app-site-association
+Sitemap: https://shopnocturne.com.au/sitemap.xml
 
-  {%- if group.sitemap != blank -%}
-    {{ group.sitemap }}
-  {%- endif -%}
-{% endfor %}
+
+User-agent: Nutch
+Disallow: /
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+Disallow: /a/downloads/-/*
+Disallow: /admin
+Disallow: /cart
+Disallow: /orders
+Disallow: /checkout
+Disallow: /58085081239/checkouts
+Disallow: /58085081239/orders
+Disallow: /carts
+Disallow: /account
+Disallow: /collections/*sort_by*
+Disallow: /*/collections/*sort_by*
+Disallow: /collections/*+*
+Disallow: /collections/*%2B*
+Disallow: /collections/*%2b*
+Disallow: /*/collections/*+*
+Disallow: /*/collections/*%2B*
+Disallow: /*/collections/*%2b*
+Disallow: /blogs/*+*
+Disallow: /blogs/*%2B*
+Disallow: /blogs/*%2b*
+Disallow: /*/blogs/*+*
+Disallow: /*/blogs/*%2B*
+Disallow: /*/blogs/*%2b*
+Disallow: /*?*oseid=*
+Disallow: /*preview_theme_id*
+Disallow: /*preview_script_id*
+Disallow: /policies/
+Disallow: /*/*?*ls=*&ls=*
+Disallow: /*/*?*ls%3D*%3Fls%3D*
+Disallow: /*/*?*ls%3d*%3fls%3d*
+Disallow: /search
+Disallow: /apple-app-site-association
+Sitemap: https://shopnocturne.com.au/sitemap.xml
+
+User-agent: AhrefsSiteAudit
+Crawl-delay: 10
+Disallow: /a/downloads/-/*
+Disallow: /admin
+Disallow: /cart
+Disallow: /orders
+Disallow: /checkout
+Disallow: /58085081239/checkouts
+Disallow: /58085081239/orders
+Disallow: /carts
+Disallow: /account
+Disallow: /collections/*sort_by*
+Disallow: /*/collections/*sort_by*
+Disallow: /collections/*+*
+Disallow: /collections/*%2B*
+Disallow: /collections/*%2b*
+Disallow: /*/collections/*+*
+Disallow: /*/collections/*%2B*
+Disallow: /*/collections/*%2b*
+Disallow: /blogs/*+*
+Disallow: /blogs/*%2B*
+Disallow: /blogs/*%2b*
+Disallow: /*/blogs/*+*
+Disallow: /*/blogs/*%2B*
+Disallow: /*/blogs/*%2b*
+Disallow: /*?*oseid=*
+Disallow: /*preview_theme_id*
+Disallow: /*preview_script_id*
+Disallow: /policies/
+Disallow: /*/*?*ls=*&ls=*
+Disallow: /*/*?*ls%3D*%3Fls%3D*
+Disallow: /*/*?*ls%3d*%3fls%3d*
+Disallow: /search
+Disallow: /apple-app-site-association
+Sitemap: https://shopnocturne.com.au/sitemap.xml
+
+User-agent: MJ12bot
+Crawl-Delay: 10
+
+User-agent: Pinterest
+Crawl-delay: 1
