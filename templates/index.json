@@ -76,13 +76,13 @@
         "1629520306b1ef3d4a-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "tops-t-shirts"
+            "collection": "new-arrivals"
           }
         },
         "1629520306b1ef3d4a-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "pants-jeans"
+            "collection": "jumpsuits"
           }
         }
       },
@@ -142,11 +142,10 @@
         "16295204284fbda2d2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Banner-1.jpg",
-        "image_2": "shopify:\/\/shop_images\/N21Y-5408-0011_2.jpg",
+        "image": "shopify:\/\/shop_images\/Back-to-Nature.jpg",
         "section_fontsize_desktop": 20,
         "color_title": "#ffffff",
-        "desktop_text_box_position": "center",
+        "desktop_text_box_position": "flex-end",
         "desktop_text_box_position_related": "flex-start",
         "desktop_text_button_position": "left",
         "color_scheme": "background-1",
