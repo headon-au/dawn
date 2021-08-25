@@ -175,11 +175,6 @@
                 </button>
               </quantity-input>
             </div>
-          {%- when 'popup' -%}
-              <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
-                <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">{{ block.settings.text | default: block.settings.page.title }}</button>
-              </modal-opener>
-              <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">{{ block.settings.text }}</a>
           {%- when 'share' -%}
             <share-button class="share-button" {{ block.shopify_attributes }}>
               <button class="share-button__button hidden">
@@ -224,6 +219,15 @@
                   {%- for option in product.options_with_values -%}
                       <fieldset class="js product-form__input">
                         <legend class="form__label">{{ option.name }}</legend>
+                         {% if option.name == 'Size' %} 
+                           {% assign popups = section.blocks | where: "type", "popup" %}
+                              {%- for block in popups -%}
+                               <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
+                                     <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">{{ block.settings.text | default: block.settings.page.title }}</button>
+                                </modal-opener>
+                                <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">{{ block.settings.text }}</a>
+                                {% endfor %}
+                          {% endif %}
                         {%- for value in option.values -%}
                           <input type="radio" id="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}"
                                 name="{{ option.name }}"
