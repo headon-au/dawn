@@ -1040,13 +1040,6 @@ span.active-facets__button-inner {
     width: auto;
     margin-bottom: 5px;
 }
-  .footer__column.footer__column--info {
-    flex-direction: column;
-    justify-content: center;
-}
-  .footer__payment {
-    margin-top: 0px;
-}
  
 }
  
