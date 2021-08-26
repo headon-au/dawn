@@ -1112,4 +1112,9 @@ button.product-form__submit.button.button--full-width.button--secondary {
 }
 
 
-
+/* Fix Product grid */
+@media screen and (min-width: 750px){
+.grid__item {
+    max-width: 33%;
+}
+}
