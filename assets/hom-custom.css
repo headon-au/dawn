@@ -1068,7 +1068,31 @@ td, th {
   border: 1px solid #ffffff;
   border-bottom: 1px solid black;
 }
+.facets__header {
+  font-size: 12px;
+}
 
+facet-remove {
+  font-size: 12px;
+}
+
+label.facet-checkbox {
+  font-size: 12px;
+}
+
+a.facets__reset.link.underlined-link {
+  font-size: 12px;
+}
+
+label.collection-filters__label.caption-large {
+  font-size: 12px;
+  padding-top: 2px;
+  color: black;
+}
+
+p.facets__heading.caption-large {
+  padding-top: 2px;
+}
 
 
 
