@@ -899,6 +899,7 @@ summary.menu-drawer__menu-item.list-menu__item {
 }
 #shopify-section-header {
     transform: none;
+    z-index: 999;
 }
 
 /* Mobile Filter */
