@@ -789,7 +789,7 @@ a.card {
 }
 
 .card-wrapper:hover .media.media--transparent.media--adapt.media--hover-effect.product-image img {
-  z-index: 100;
+  z-index: 1000;
   opacity: 1;
   transition: transform var(--duration-long) ease;
   transform: scale(1.03);
@@ -897,10 +897,7 @@ summary.menu-drawer__menu-item.list-menu__item {
     font-weight: 600;
     letter-spacing: 1px;
 }
-#shopify-section-header {
-    transform: none;
-    z-index: 999;
-}
+
 
 /* Mobile Filter */
 
