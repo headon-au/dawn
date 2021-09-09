@@ -897,7 +897,9 @@ summary.menu-drawer__menu-item.list-menu__item {
     font-weight: 600;
     letter-spacing: 1px;
 }
-
+#shopify-section-header {
+    transform: none;
+}
 
 /* Mobile Filter */
 
