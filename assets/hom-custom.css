@@ -699,6 +699,43 @@ a.card {
     text-transform: uppercase;
 }
 
+/* Product complete look */
+
+.product-alt-complete-look {
+    border-top: 2px solid;
+}
+
+.product-alt-complete-look .complete-look-data {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-alt-complete-look .complete-look-data .product_variant {
+  padding-right: 5px;
+  margin-bottom: 17px;
+  width: 50%;
+}
+.product-alt-complete-look .complete-look-data .product_variant img {
+
+  max-width: 100%;
+}
+.product-alt-complete-look .complete-look-data .product_variant a {
+
+  color: #2A2A2A;
+  font-family: "Silk Serif";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-decoration: none;
+
+}
+.product-alt-complete-look p{
+  color: #2A2A2A;
+  font-family: "Work Sans";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
 /* Banner */
 
 .banner__text>* {
