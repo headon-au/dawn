@@ -235,6 +235,37 @@
               </details>
             </share-button>
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
+        
+             {%- assign tag_alt = "BLANK" -%}
+                  {%- for tag in product.tags -%}
+                    {%- assign tag_prefix = tag | slice: 0, 9 -%}
+                    {%- if tag_prefix == "complete_" -%}
+                      {%- assign tag_alt = tag -%}
+                      {%- break -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+                  {%- unless tag_alt == "BLANK" -%}
+                  {% assign thisproduct = product.title %}
+                    {%- capture products_output -%}
+                      {%- for product in collections.all.products -%}
+                      {%- unless product.handle == current_product.handle -%}
+                         {%- if product.tags contains tag_alt -%}
+                           {% if product.title <> thisproduct %}
+                              <div class="product_variant">
+                                  <a href="{{ product.url }}" title="{{ product.title }}"><img src="{{ product.featured_image | img_url: '510x', crop: 'center', format: 'pjpg' }}" alt="{{ product.title }}">{{ product.title }} </a>
+                              </div>
+                              {%- endif -%}
+                              {%- endif -%}
+                         {%- endunless -%}
+                         {%- endfor -%}
+                       {%- endcapture -%} 
+                       <div class="product-alt-complete-look">
+                         <p> COMPLETE THE LOOK </p>
+                           <div class="complete-look-data">
+                                 {{ products_output }}
+                            </div>
+                          </div>
+                   {%- endunless -%}
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
               {%- if block.settings.picker_type == 'button' -%}
