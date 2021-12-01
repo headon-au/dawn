@@ -19,7 +19,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/drop-02",
+            "button_link_1": "shopify:\/\/collections\/drop-03",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -33,7 +33,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Nocturne-Banner-Drop2.jpg",
+        "image": "shopify:\/\/shop_images\/Nocturne-Banner-Drop3.jpg",
         "section_fontsize_desktop": 20,
         "color_title": "#ffffff",
         "desktop_text_box_position": "flex-end",
