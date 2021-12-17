@@ -44,6 +44,50 @@
         "adapt_height_first_image": false
       }
     },
+    "16397224559d8539e2": {
+      "type": "image-banner-planet",
+      "disabled": true,
+      "blocks": {
+        "16397224553d2e62bb-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner"
+          }
+        },
+        "16397224553d2e62bb-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "16397224553d2e62bb-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP 50% OFF",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "SHOP 20% OFF",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "16397224553d2e62bb-0",
+        "16397224553d2e62bb-1",
+        "16397224553d2e62bb-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Nocturne-Banner-Boxing-day.jpg",
+        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_position_related": "flex-start",
+        "color_scheme": "none",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -248,6 +292,7 @@
   },
   "order": [
     "image_banner",
+    "16397224559d8539e2",
     "rich_text",
     "1629520306b1ef3d4a",
     "video",
