@@ -2,7 +2,6 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -47,6 +46,7 @@
     },
     "16397224559d8539e2": {
       "type": "image-banner-planet",
+      "disabled": true,
       "blocks": {
         "16397224553d2e62bb-0": {
           "type": "heading",
