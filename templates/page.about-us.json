@@ -4,9 +4,84 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "16423858654644ca36": {
+      "type": "rich-text",
+      "blocks": {
+        "1642385865f5bcfe04-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "NOCTURNE offers trend-led styles for women at reasonable prices. Each collection features classic pieces updated with exciting prints, top-quality fabrics and bold silhouettes. Styles that are designed to make the wearer stand out among the crowd.",
+            "heading_size": "h1"
+          }
+        },
+        "1642385865f5bcfe04-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "1642385865f5bcfe04-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1642385865f5bcfe04-0",
+        "1642385865f5bcfe04-1",
+        "1642385865f5bcfe04-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1642385807e72eed8b": {
+      "type": "image-with-text",
+      "blocks": {
+        "16423858074fccef5f-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": ""
+          }
+        },
+        "16423858074fccef5f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>True to its European roots, NOCTURNE makes luxurious garments for women who follow the latest trends but like to see their unique style come alive in details. Its vast collection appeals to both seasoned and young fashionistas around the globe.<\/p><p>With over 50 beautifully designed stores and corner shops across Europe, NOCTURNE is fast becoming one of the most exciting high street fashion brands of the moment. Now you can discover the world of NOCTURNE online at <a href=\"https:\/\/shopnocturne.com.au\/\">shopnocturne.com.au<\/a><\/p>"
+          }
+        },
+        "16423858074fccef5f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16423858074fccef5f-0",
+        "16423858074fccef5f-1",
+        "16423858074fccef5f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2021-08-17_at_1.20.43_pm.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16423858654644ca36",
+    "1642385807e72eed8b"
   ]
 }
