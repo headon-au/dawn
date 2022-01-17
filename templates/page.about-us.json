@@ -11,7 +11,7 @@
         "1642385865f5bcfe04-0": {
           "type": "heading",
           "settings": {
-            "heading": "NOCTURNE offers trend-led styles for women at reasonable prices. Each collection features classic pieces updated with exciting prints, top-quality fabrics and bold silhouettes. Styles that are designed to make the wearer stand out among the crowd.",
+            "heading": "Nocturne offers trend-led styles for women at reasonable prices. Each collection features classic pieces updated with exciting prints, top-quality fabrics and bold silhouettes. Styles that are designed to make the wearer stand out among the crowd.",
             "heading_size": "h1"
           }
         },
@@ -72,7 +72,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Unknown-16.jpg",
-        "height": "large",
+        "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
       }
