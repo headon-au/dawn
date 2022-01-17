@@ -14,6 +14,8 @@
     "social_instagram_link": "https:\/\/www.instagram.com\/nocturneaustralia\/",
     "favicon": "shopify:\/\/shop_images\/favicon-32x32_32x32_d3b532af-4696-4cec-a19d-e967b812fb25.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/nocturne-logo-new.png",
+    "checkout_accent_color": "#121212",
+    "checkout_button_color": "#121212",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
