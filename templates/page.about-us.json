@@ -54,15 +54,14 @@
         "16423858074fccef5f-1": {
           "type": "text",
           "settings": {
-            "text": "<p>True to its European roots, NOCTURNE makes luxurious garments for women who follow the latest trends but like to see their unique style come alive in details. Its vast collection appeals to both seasoned and young fashionistas around the globe.<\/p><p>With over 50 beautifully designed stores and corner shops across Europe, NOCTURNE is fast becoming one of the most exciting high street fashion brands of the moment. Now you can discover the world of NOCTURNE online at <a href=\"https:\/\/shopnocturne.com.au\/\">shopnocturne.com.au<\/a><\/p>"
+            "text": "<p>True to its European roots, NOCTURNE makes luxurious garments for women who follow the latest trends but like to see their unique style come alive in details. Its vast collection appeals to both seasoned and young fashionistas around the globe.<\/p><p>With over 50 beautifully designed stores and corner shops across Europe, NOCTURNE is fast becoming one of the most exciting high street fashion brands of the moment.<\/p>"
           }
         },
         "16423858074fccef5f-2": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop All",
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
