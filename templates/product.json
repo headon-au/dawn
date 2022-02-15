@@ -59,6 +59,17 @@
             "icon": "price_tag"
           }
         },
+        "b767899a-eee2-4409-b622-5a13c795c834": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Sizing & Fit",
+            "content": "<p>{{ product.metafields.my_fields.sizing_fit | metafield_tag }}<\/p>",
+            "tab_description": false,
+            "tab_open": false,
+            "page": "",
+            "icon": "shirt"
+          }
+        },
         "2b4645eb-3dbc-4efd-82dc-278d441c2861": {
           "type": "collapsible_tab",
           "settings": {
@@ -93,17 +104,6 @@
             "icon": "ruler"
           }
         },
-        "b767899a-eee2-4409-b622-5a13c795c834": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Sizing & Fit",
-            "content": "<p>{{ product.metafields.my_fields.sizing_fit | metafield_tag }}<\/p>",
-            "tab_description": false,
-            "tab_open": false,
-            "page": "",
-            "icon": "shirt"
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -120,10 +120,10 @@
         "buy_buttons",
         "8fc838cd-180f-4c98-93c0-812aaea451f0",
         "5f29e879-a4f5-49a2-922d-bcc89d552406",
+        "b767899a-eee2-4409-b622-5a13c795c834",
         "2b4645eb-3dbc-4efd-82dc-278d441c2861",
         "a3a7a8b7-1cd1-4082-8405-37ccb59b5a86",
         "b036eaeb-9224-448c-9cfb-2ad6bf1a90a7",
-        "b767899a-eee2-4409-b622-5a13c795c834",
         "share"
       ],
       "settings": {
