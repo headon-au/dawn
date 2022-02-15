@@ -97,7 +97,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Sizing & Fit",
-            "content": "",
+            "content": "<p>{{ product.metafields.my_fields.sizing_fit | metafield_tag }}<\/p>",
             "tab_description": false,
             "tab_open": false,
             "page": "",
