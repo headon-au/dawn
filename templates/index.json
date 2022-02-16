@@ -160,20 +160,20 @@
         "16295204284fbda2d2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Back to nature"
+            "heading": "Drop 01"
           }
         },
         "16295204284fbda2d2-1": {
           "type": "text",
           "settings": {
-            "text": "Mixed fabrics propose an upgrade to your style with breathable items that bring in natural energies of the elements."
+            "text": "Channel your empowered self, with Mono-Illusion. Featuring the duality of black and white with a burst of fuchsia."
           }
         },
         "16295204284fbda2d2-2": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/back-to-nature",
+            "button_link_1": "shopify:\/\/collections\/drop-1",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -187,8 +187,8 @@
         "16295204284fbda2d2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Back-to-Nature-2.jpg",
-        "image_2": "shopify:\/\/shop_images\/Back-to-Nature-1.jpg",
+        "image": "shopify:\/\/shop_images\/Drop-1_Banner-1_1500x_aa2f3865-74a9-4ce5-a406-dbbee933c675.jpg",
+        "image_2": "shopify:\/\/shop_images\/Drop-1_Banner-3_1500x_bf4fc057-e796-4f5f-b28b-c665c4e06e67.jpg",
         "section_fontsize_desktop": 20,
         "color_title": "#ffffff",
         "desktop_text_box_position": "flex-end",
@@ -203,7 +203,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "New Arrivals",
-        "collection": "all",
+        "collection": "new-arrivals",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": true,
