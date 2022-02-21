@@ -1165,3 +1165,21 @@ button.product-form__submit.button.button--full-width.button--secondary {
 h2.banner__heading.h1 span {
     color: black;
 }
+
+/* Banner text colour and size fix */
+
+.banner__text span {
+    color: black;
+}
+
+.banner__box>*+.banner__text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 750px){
+.banner__box {
+    padding: 4rem;
+    width: 36rem;
+}
+}
+
