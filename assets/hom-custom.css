@@ -1190,3 +1190,7 @@ h2.banner__heading.h1 span {
 .banner__box.color-none {
   top: 3rem;
 }
+
+.banner__content .button {
+    margin-right: 0rem!important;
+}
