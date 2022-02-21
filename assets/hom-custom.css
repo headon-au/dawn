@@ -1173,13 +1173,13 @@ h2.banner__heading.h1 span {
 }
 
 .banner__box>*+.banner__text {
-    margin-top: 0.5rem;
+    margin-top: 0.5rem!important;
 }
 
 @media screen and (min-width: 750px){
 .banner__box {
-    padding: 4rem;
-    width: 36rem;
+    padding: 4rem!important;
+    width: 36rem!important;
 }
 }
 
