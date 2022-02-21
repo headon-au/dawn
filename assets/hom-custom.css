@@ -1183,3 +1183,10 @@ h2.banner__heading.h1 span {
 }
 }
 
+.banner__box>*+.banner__buttons {
+    transform: translate(0rem);
+}
+
+.banner__box.color-none {
+  top: 3rem;
+}
