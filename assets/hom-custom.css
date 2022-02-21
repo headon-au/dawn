@@ -1184,7 +1184,7 @@ h2.banner__heading.h1 span {
 }
 
 .banner__box>*+.banner__buttons {
-    transform: translate(0rem);
+    transform: translate(0rem)!important;
 }
 
 .banner__box.color-none {
