@@ -222,6 +222,7 @@
         "f0bb9e69-69f1-4f92-bd6a-d46e876d306f": {
           "type": "image",
           "settings": {
+            "image": "{{ product.metafields.my_fields.as_seen_on_image_1.value }}",
             "image_padding": false,
             "color_scheme": "background-1"
           }
@@ -229,6 +230,7 @@
         "d745e0c7-e052-431a-93ca-346345903f16": {
           "type": "image",
           "settings": {
+            "image": "{{ product.metafields.my_fields.as_seen_on_image_2.value }}",
             "image_padding": false,
             "color_scheme": "background-1"
           }
