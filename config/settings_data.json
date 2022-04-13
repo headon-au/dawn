@@ -22,6 +22,7 @@
         "blocks": {
           "6b86d7b8-b3c6-4e0f-b82d-7ee89af448fd": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Free shipping & returns AUS\/NZ wide order over $250",
               "color_scheme": "accent-1",
