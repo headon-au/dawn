@@ -48,6 +48,13 @@
             "second-shipping-image": "shopify:\/\/shop_images\/Free_Returns.png"
           }
         },
+        "b0306867-6c2a-4da2-8cec-d5a0361603ec": {
+          "type": "text",
+          "settings": {
+            "text": "<br> All orders placed during this time will be dispatched on Tuesday 19th April. <br>",
+            "text_style": "uppercase"
+          }
+        },
         "5f29e879-a4f5-49a2-922d-bcc89d552406": {
           "type": "collapsible_tab",
           "settings": {
@@ -119,6 +126,7 @@
         "variant_picker",
         "buy_buttons",
         "8fc838cd-180f-4c98-93c0-812aaea451f0",
+        "b0306867-6c2a-4da2-8cec-d5a0361603ec",
         "5f29e879-a4f5-49a2-922d-bcc89d552406",
         "b767899a-eee2-4409-b622-5a13c795c834",
         "2b4645eb-3dbc-4efd-82dc-278d441c2861",
