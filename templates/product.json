@@ -50,8 +50,9 @@
         },
         "b0306867-6c2a-4da2-8cec-d5a0361603ec": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<br> All orders placed during this time will be dispatched on Tuesday 19th April. <br>",
+            "text": "All orders placed during this time will be dispatched on Tuesday 19th April.",
             "text_style": "uppercase"
           }
         },
