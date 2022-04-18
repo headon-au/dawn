@@ -386,12 +386,5 @@
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
     }
-  },
-  "shopify": {
-    "checkout": {
-      "shipping": {
-        "shipping_method_notice": "All orders placed during this time will be dispatched on Tuesday 19th April."
-      }
-    }
   }
 }
